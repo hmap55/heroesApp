@@ -1,0 +1,12 @@
+<h1 mat-dialog-title>Esta seguro?</h1>
+<div mat-dialog-content>
+  <p>Si lo elimina se perderan los datos completamente,
+    heroe a eliminar {{data.superhero}}
+  </p>
+
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">No Thanks</button>
+
+  <button mat-button (click)="onComfirm()" cdkFocusInitial>Ok</button>
+</div>

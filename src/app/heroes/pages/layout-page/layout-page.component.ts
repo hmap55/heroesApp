@@ -1,0 +1,16 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-layout-page',
+  templateUrl: './layout-page.component.html',
+  styles: [
+  ]
+})
+export class LayoutPageComponent {
+
+  public sideBarItems =[
+    {label: 'listado', icon: 'label', url: './list'},
+    {label: 'Añadir', icon: 'add', url: './new-hero'},
+    {label: 'buscar', icon: 'search', url: './search'}
+  ]
+}
